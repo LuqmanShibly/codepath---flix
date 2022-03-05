@@ -54,6 +54,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.posterView.af_setImage(withURL: posterUrl!)
         
         return cell
+        
     }
     
     // this method is asked to implement the amount of rows for the tableView
